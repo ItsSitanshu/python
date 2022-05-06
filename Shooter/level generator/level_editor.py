@@ -32,10 +32,10 @@ scroll_speed = 1
 
 
 
-pine1_img = pygame.image.load('./level generator/img/Background/pine1.png').convert_alpha()
-pine2_img = pygame.image.load('./level generator/img/Background/pine2.png').convert_alpha()
-mountain_img = pygame.image.load('./level generator/img/Background/mountain.png').convert_alpha()
-sky_img = pygame.image.load('./level generator/img/Background/sky_cloud.png').convert_alpha()
+pine1_img = pygame.image.load('./level generator/img/background/pine1.png').convert_alpha()
+pine2_img = pygame.image.load('./level generator/img/background/pine2.png').convert_alpha()
+mountain_img = pygame.image.load('./level generator/img/background/mountain.png').convert_alpha()
+sky_img = pygame.image.load('./level generator/img/background/sky_cloud.png').convert_alpha()
 
 img_list = []
 for x in range(TILE_TYPES):
